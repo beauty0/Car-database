@@ -22,6 +22,9 @@ BEGIN
    V_fun_op:=CHECK_ID(101);
 DBMS_OUTPUT.put_line(V_fun_op);
 END;
-     
+-----------SELECT AND CHECK --------
+    SELECT last_name,ADDRESS,CHECK_ID(CARCUST_ID)
+  FROM CARCUST
+      
 
      
