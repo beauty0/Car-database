@@ -1,5 +1,5 @@
 set SERVEROUTPUT ON;
------create explicit cursor----
+-----create Explicit cursor----
 DECLARE
  Cursor cur_carcu
  is 
